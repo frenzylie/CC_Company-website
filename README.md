@@ -1,3 +1,22 @@
+Mock up company website made for Code Challenge 2 JCWDOL014 Class 1
+
+Disclaimers
+
+Please note that everything presented on this website, including
+company information, products, services, testimonials, and menu
+items, are entirely fictional and created for illustrative purposes
+only. Any resemblance to actual persons, companies, or events are
+purely coincidental.
+
+The images used on this website may include stock photos or images
+obtained from third-party sources. They are used for demonstration
+purposes only and do not represent real individuals, businesses, or
+products.
+
+The purpose of this website is to serve as a demonstration or
+exercise in web design and content creation. It does not represent a
+real business or offer real products or services.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

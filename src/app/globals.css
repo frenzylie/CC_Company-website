@@ -2,32 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.home button {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 6px;
+  background-color: rgb(55,65,81);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.h-screen-minus-header {
+  height : calc(100vh - 36px)
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.overview h2, .services h2 {
+  padding-bottom: 12px;
+  font-weight: 700;
+  font-size: larger;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.overview h3, .services h3 {
+  padding-bottom: 4px;
+  font-weight: 600;
+  font-size: large;
+}
+
+.overview p, .services p {
+  text-align: justify;
 }
